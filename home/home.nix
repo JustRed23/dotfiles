@@ -29,6 +29,7 @@
 	spotify
 	jetbrains-toolbox
 	discord
+	steam
     ];
 
     programs.home-manager.enable = true;

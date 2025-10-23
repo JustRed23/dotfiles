@@ -9,6 +9,7 @@
       ./networking.nix
       ./users.nix
       ./packages.nix
+      ./programs.nix
       ./wm.nix
     ];
 
