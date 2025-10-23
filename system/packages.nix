@@ -8,6 +8,7 @@
 	fastfetch # flexing is an essential thing
 	btop
 	kdePackages.dolphin
+	kdePackages.partitionmanager
 	
 	# Editors
 	neovim
