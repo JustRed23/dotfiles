@@ -12,18 +12,19 @@
     };
 
     security.rtkit.enable = true;
-    hardware.pulseaudio.enable = false;
 
     services = {
 	# Touchpad
 	libinput.enable = true;
-
+	
 	pipewire = {
 	    enable = true;
 	    alsa.enable = true;
 	    alsa.support32Bit = true;
 	    pulse.enable = true;
 	};
+
+	pulseaudio.enable = false;
 
 	printing.enable = true;
     };
