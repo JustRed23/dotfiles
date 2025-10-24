@@ -11,9 +11,11 @@
 	package = config.boot.kernelPackages.nvidiaPackages.stable;
 	modesetting.enable = true;
 	powerManagement = {
-	    enable = true;
+	    enable = false;
+	    finegrained = false;
 	};
-	open = true;
+	open = false;
+	nvidiaSettings = true;
     };
 
     environment.systemPackages = with pkgs; [
