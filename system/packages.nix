@@ -18,6 +18,9 @@
 	docker
 	docker-compose
 	git
+	
+	# Games
+	heroic
     ];
 
     fonts.packages = with pkgs; [

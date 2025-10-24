@@ -13,6 +13,4 @@
 	    packages = with pkgs; [];
 	};
     };
-
-    services.getty.autologinUser = "red";
 }

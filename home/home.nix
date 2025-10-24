@@ -27,7 +27,7 @@
 
     home.packages = with pkgs; [
 	spotify
-	jetbrains-toolbox
+	#jetbrains-toolbox #seems to be broken currently
 	discord
 	steam
     ];
