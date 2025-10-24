@@ -21,9 +21,13 @@
 
     programs.git = {
 	enable = true;
-	userName = "JustRed23";
-	userEmail = "manuel.bormans@gmail.com";
+	settings.user = {
+	    name = "JustRed23";
+	    email = "manuel.bormans@gmail.com";
+	};
     };
+
+    services.easyeffects.enable = true;
 
     home.packages = with pkgs; [
 	spotify
