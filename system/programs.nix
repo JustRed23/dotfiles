@@ -11,5 +11,8 @@
 		proton-ge-bin
 	    ];
 	};
+	gamemode = {
+	    enable = true;
+	};
     };
 }
