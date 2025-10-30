@@ -10,7 +10,7 @@
 	hyprland.url = "github:hyprwm/Hyprland";
     };
 
-    outputs = { nixpkgs, home-manager, hyprland, ... }@inputs:
+    outputs = { nixpkgs, home-manager, ... }@inputs:
 	let
 	    system = "x86_64-linux";
 	    pkgs = import nixpkgs {
@@ -25,12 +25,6 @@
 		    specialArgs = { inherit inputs system; };
 		    modules = [
 			./system/configuration.nix
-			hyprland.nixosModules.default
-			{
-		    	    programs.hyprland = {
-				enable = true;
-		    	    };
-			}
 			home-manager.nixosModules.home-manager
 			{ 
 		    	    home-manager = {

@@ -37,6 +37,9 @@
 	printing.enable = true;
     };
 
+    # Language
+    i18n.defaultLocale = "en_US.UTF-8";
+
     # Date/Time
     time.timeZone = "Europe/Brussels";
 
