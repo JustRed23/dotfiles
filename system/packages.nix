@@ -9,7 +9,8 @@
 	btop
 	kdePackages.dolphin
 	kdePackages.partitionmanager
-	
+	kdePackages.isoimagewriter	
+
 	# Editors
 	neovim
 	libreoffice
