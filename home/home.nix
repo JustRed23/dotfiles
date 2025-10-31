@@ -5,6 +5,12 @@
 	./programs
     ];
 
+    # Fix weird cursors on non-wayland apps
+    home.file.".local/share/icons/default" = {
+  	source = "${pkgs.kdePackages.breeze}/share/icons/breeze_cursors/";
+  	recursive = true;
+    };
+
     home.username = "red";
     home.homeDirectory = "/home/red";
     home.stateVersion = "25.05";
