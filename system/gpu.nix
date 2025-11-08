@@ -11,10 +11,10 @@
 	package = config.boot.kernelPackages.nvidiaPackages.stable;
 	modesetting.enable = true;
 	powerManagement = {
-	    enable = false;
+	    enable = true;
 	    finegrained = false;
 	};
-	open = false;
+	open = true;
 	nvidiaSettings = true;
     };
 
